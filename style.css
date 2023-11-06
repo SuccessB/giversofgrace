@@ -1,0 +1,107 @@
+ @import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Mooli&display=swap');
+
+body {
+    /* background: #42445A; */
+    background: #0d1e3a;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-family: Mooli, sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+  font-size: 20px;
+  margin: 3px;
+  padding: 2px;
+  font-weight: bold;
+  border-radius: 20px;
+  background-color: purple;
+  margin-left: 95px;
+  margin-right:95px;
+}
+
+h5{
+    text-align: left;
+}
+
+.obj {
+    font-size: 20px;
+    margin: 3px;
+    padding: 3px;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color:purple;
+}
+
+ul li {
+    text-align: left;
+}
+
+ol li {
+    text-align: left;
+}
+
+h4 {
+font-family: 'Great Vibes', cursive;
+font-size: 40px;
+font-weight: lighter;
+color: lightblue;
+}
+
+figcaption {
+  font-family: 'Mooli';
+  font-weight: lighter;
+}
+
+#quote {
+  margin: 5px;
+  padding: 5px;
+  color: white;
+  font-weight: bold;
+  border-radius: 20px;
+  background-color: purple;
+}
+
+#quote:hover {
+  color: lightblue;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  border: lightblue;
+}
+
+a {
+  text-decoration: none;
+  
+}
+
+.profile-img {
+  width: 75%;
+  border-radius: 30%;
+}
+
+.btn {
+  display: block;
+  color: black;
+  padding: 20px;
+  margin: 15px;
+  background-color: white;
+  box-shadow: 10px 10px lightblue;
+}
+
+
+footer {
+  
+  background-color: lightblue;
+  margin: 0;
+  padding: 5px;
+  margin-top: 5px;height: ;
+  color: #0d1e3a;
+  font-size: small;
+}
